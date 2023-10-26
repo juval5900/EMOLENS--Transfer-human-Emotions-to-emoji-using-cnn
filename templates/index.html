@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emojify</title>
+</head>
+<body>
+    <h1>Emojify</h1>
+    <img src="{{ url_for('video_feed') }}" width="640" height="480">
+    <div id="emoji">
+        <img src="{{ url_for('static', filename='emojis/angry.png') }}" id="emoji_image" alt="Emoji">
+        <p id="emoji_text"></p>
+    </div>
+</body>
+</html>
